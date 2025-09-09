@@ -1,18 +1,20 @@
 # Footprinting
 ## Scanning host on network
 1. namp
-` nmap -sn < gateway > / cidr
+` nmap -sn < gateway > / cidr `
 
 
 example
 ```
 
 
+```
 
 2. Netdiscover
-`sudo netdiscover -r < gateway > / cidr`
+`sudo netdiscover -r < gateway > / cidr `
 
 Exmple
+
 ```
 sudo netdiscover -r 192.168.0.1/24
  Currently scanning: Finished!   |   Screen View: Unique Hosts                                                                        
