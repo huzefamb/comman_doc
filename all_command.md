@@ -6,8 +6,20 @@
 
 example
 ```
-
-
+nmap -sn 192.168.0.1/24           
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-09 02:09 EDT
+Nmap scan report for 192.168.0.1
+Host is up (0.0064s latency).
+MAC Address: B0:4E:26:22:5E:DA (TP-Link Technologies)
+Nmap scan report for 192.168.0.105
+Host is up (0.00020s latency).
+MAC Address: AC:19:8E:12:E8:EB (Intel Corporate)
+Nmap scan report for 192.168.0.108
+Host is up (0.00085s latency).
+MAC Address: 08:00:27:D2:AA:5F (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.0.106
+Host is up.
+Nmap done: 256 IP addresses (4 hosts up) scanned in 2.09 seconds
 ```
 
 2. Netdiscover
