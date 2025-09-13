@@ -1,10 +1,10 @@
-#nmap on metasploitable
-target ip :192.168.0.110
-purpose : learning  nmap scan 
+# nmap on metasploitable
+target ip :192.168.0.110 \
+purpose : learning  nmap scan \
 aurthur : huzefa < huzefamb200207@gamil.com > 
 
 
-##top 1000 port scanning 
+## top 1000 port scanning 
 nmap < target > 
 ```
 ──(root㉿kali)-[/home/kali]
@@ -43,7 +43,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
 ```
 
 
-##scanning specific port 
+## scanning specific port 
 nmap -p < port > < target > 
 ```
 ┌──(root㉿kali)-[/home/kali]
@@ -78,7 +78,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
 ```
 
 
-##scanning specific range 
+## scanning specific range 
 nmap -p < start range > - < end range > < target > 
 ```
 ┌──(root㉿kali)-[/home/kali]
@@ -100,7 +100,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.34 seconds
 ```
 
 
-##scanning all ports 
+## scanning all ports 
 nmap -p- < target > 
 ```
 ┌──(root㉿kali)-[/home/kali]
