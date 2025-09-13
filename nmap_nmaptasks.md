@@ -9,3 +9,5 @@ Do port scanning on given target to find the following:
 3. Top 1000 open TCP ports \
 4. If ports 10, 31, 80,9091 are open or not. \
 5. Scan all open TCP ports 
+
+### 1.1 2 open UDP ports 
