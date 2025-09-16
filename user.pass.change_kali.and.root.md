@@ -3,9 +3,9 @@
 
 ## 1. root 
 `sudo -s` \
-`passwd` \	 
+`passwd`\
 then type the new pass for root \
- then restart the system ( kali ) 
+then restart the system ( kali ) 
 
 
 
