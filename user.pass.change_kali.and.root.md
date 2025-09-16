@@ -5,14 +5,14 @@
 `sudo -s` \
 `passwd` \	 
 then type the new pass for root \
- then restart the system ( kali ) \
+ then restart the system ( kali ) 
 
 
 
 ## kali
 
 ### username 
-log in as root 
+log in as root \
 `sudo usermod -l < new username > /home/ < new username > < old username >` \
 `groupmod -n < new username > < old username >` \
 `ln -s /home/< new username > /home/ < old username >` \
@@ -20,6 +20,6 @@ log in as root
 then restaret 
 
 ### password 
-`sudo passwd`
+`sudo passwd` \
 type the new pass \
-then restart the system ( kali ) \
+then restart the system ( kali ) 
