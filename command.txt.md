@@ -1,4 +1,4 @@
-Commands List
+# Commands List
 
 pwd - Shows your location in terminal.
 
