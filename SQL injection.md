@@ -13,7 +13,7 @@ and thats how we know that there is an vulnerability in this area
 
 ## how many columns are returned 
 we type a special code to see how many columns are there
-`a' union select "1","2";-- -
+`a' union select "1","2";-- -  
 ![[Screenshot_2025-11-28_08_55_04.png]]
  how do we know that there are only two columns ? because if we enter the code with only one it doesn't give us any response and neither with three . 
 
